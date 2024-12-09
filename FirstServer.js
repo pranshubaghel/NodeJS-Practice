@@ -3,7 +3,8 @@ const server = http.createServer((req,res) => {
 
     const obj = {
         name: "pranshu",
-        surname: "baghel"
+        surname: "baghel",
+        position :"software engineer"
     }
 
     res.writeHead(200,{"content-type": "application/json"})
