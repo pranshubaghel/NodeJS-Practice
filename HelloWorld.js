@@ -10,7 +10,7 @@
 // console.log(calculate.sum(5,4))
 // console.log(calculate.subs(9,3))
 
-    // By using Javascript distruchring method
+    // By using Javascript distruchring method/
     const calculate = require('./Sum')
     const {sum, subs} = calculate;
     console.log("hello world")
